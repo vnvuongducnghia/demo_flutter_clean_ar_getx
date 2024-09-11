@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       theme: AppTheme.lightAppTheme,
-      home: const MyHomePage(title: 'Home page',),
+      home: const HomeScreen(title: 'Home page',),
     );
   }
 }
