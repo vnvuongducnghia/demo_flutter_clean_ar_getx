@@ -2,6 +2,8 @@ import 'package:demo_flutter/features/user/presentation/screens/user_list_screen
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../../../qrcode/presentation/mobile_scanner_overlay.dart';
+
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key, required this.title});
 
@@ -46,21 +48,25 @@ class _HomeScreenState extends State<HomeScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Padding(
-              padding: EdgeInsets.all(1.0),
+              padding: EdgeInsets.all(10.0),
               child: Text(
                 'This is home page Minh',
               ),
             ),
-            ElevatedButton(
-              onPressed: () {
-                Get.to(const UserListScreen(), arguments: "Data received from first screen");
-              },
-              style: ElevatedButton.styleFrom(
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(7), // <-- Radius
-                ),
+            SizedBox(
+                child: TextButton(
+                    onPressed: () {
+                      Get.to(const UserListScreen(),
+                          arguments: "Data received from first screen");
+                    },
+                    child: const Text("Example Demo User List"))),
+            SizedBox(
+              child: TextButton(
+                onPressed: () {
+                  Get.to(const BarcodeScannerWithOverlay());
+                },
+                child: const Text("Camera QR code"),
               ),
-              child: const Text('Example Demo User List'),
             )
           ],
         ),

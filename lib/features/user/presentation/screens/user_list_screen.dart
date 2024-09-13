@@ -45,6 +45,7 @@ class _UserListScreenState extends State<UserListScreen> {
         )
       ],
       title: const Text("Users"),
+      backgroundColor: Theme.of(context).colorScheme.inversePrimary,
     );
   }
 
