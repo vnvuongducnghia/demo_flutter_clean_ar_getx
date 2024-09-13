@@ -1,3 +1,4 @@
+import 'package:demo_flutter/common/util/AppLog.dart';
 import 'package:demo_flutter/features/user/presentation/screens/user_list_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -21,6 +22,10 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   _HomeScreenState() {
     print('INITIALIZATION: constructor, mounted: $mounted');
+    AppLog.e("Minh", "Error");
+    AppLog.d("Minh", "Debug");
+    AppLog.w("Minh", "Warning");
+    AppLog.i("Minh", "Info");
   }
 
   @override
