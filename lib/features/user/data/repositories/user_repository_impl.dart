@@ -1,8 +1,8 @@
-import 'package:demo_flutter/common/repository/repository_helper.dart';
-import 'package:demo_flutter/features/user/data/datasources/user_remote_data_source.dart';
-import 'package:demo_flutter/features/user/data/models/user.dart';
-import 'package:demo_flutter/features/user/domain/entities/user_entity.dart';
-import 'package:demo_flutter/features/user/domain/repositories/user_repository.dart';
+import 'package:expo_app/common/repository/repository_helper.dart';
+import 'package:expo_app/features/user/data/datasources/user_remote_data_source.dart';
+import 'package:expo_app/features/user/data/models/user.dart';
+import 'package:expo_app/features/user/domain/entities/user_entity.dart';
+import 'package:expo_app/features/user/domain/repositories/user_repository.dart';
 import 'package:dartz/dartz.dart';
 
 class UserRepositoryImpl extends UserRepository with RepositoryHelper<User> {

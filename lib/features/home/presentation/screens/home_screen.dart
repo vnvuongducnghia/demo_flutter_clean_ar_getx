@@ -1,5 +1,5 @@
-import 'package:demo_flutter/common/util/AppLog.dart';
-import 'package:demo_flutter/features/user/presentation/screens/user_list_screen.dart';
+import 'package:expo_app/common/util/AppLog.dart';
+import 'package:expo_app/features/user/presentation/screens/user_list_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

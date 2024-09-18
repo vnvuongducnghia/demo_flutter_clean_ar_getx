@@ -1,6 +1,6 @@
 import 'package:json_annotation/json_annotation.dart';
 import 'package:flutter/foundation.dart' show immutable;
-import 'package:demo_flutter/features/user/domain/entities/user_entity.dart';
+import 'package:expo_app/features/user/domain/entities/user_entity.dart';
 
 part 'user.g.dart';
 

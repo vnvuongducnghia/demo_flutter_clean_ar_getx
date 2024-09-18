@@ -1,4 +1,4 @@
-import 'package:demo_flutter/features/user/domain/entities/user_entity.dart';
+import 'package:expo_app/features/user/domain/entities/user_entity.dart';
 import 'package:flutter/material.dart';
 
 class StatusContainer extends StatelessWidget {

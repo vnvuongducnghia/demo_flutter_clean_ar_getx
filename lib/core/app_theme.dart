@@ -1,5 +1,5 @@
-import 'package:demo_flutter/core/app_string.dart';
-import 'package:demo_flutter/core/app_style.dart';
+import 'package:expo_app/core/app_string.dart';
+import 'package:expo_app/core/app_style.dart';
 import 'package:flutter/material.dart';
 
 class AppTheme {

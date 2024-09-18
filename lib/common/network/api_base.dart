@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'dart:convert';
-import 'package:demo_flutter/common/network/dio_exception.dart';
-import 'package:demo_flutter/core/app_extension.dart';
+import 'package:expo_app/common/network/dio_exception.dart';
+import 'package:expo_app/core/app_extension.dart';
 
 abstract mixin class ApiBase<T> {
   //Method template for checking whether api is success or not

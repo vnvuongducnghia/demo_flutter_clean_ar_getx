@@ -1,14 +1,14 @@
-import 'package:demo_flutter/features/user/presentation/controller/user_controller.dart';
-import 'package:demo_flutter/features/user/presentation/widgets/status_container.dart';
-import 'package:demo_flutter/features/user/domain/entities/user_entity.dart';
-import 'package:demo_flutter/common/widget/spinkit_indicator.dart';
-import 'package:demo_flutter/features/user/data/models/user.dart';
-import 'package:demo_flutter/common/dialog/retry_dialog.dart';
-import 'package:demo_flutter/common/widget/empty_widget.dart';
-import 'package:demo_flutter/common/widget/popup_menu.dart';
-import 'package:demo_flutter/core/app_extension.dart';
-import 'package:demo_flutter/core/app_style.dart';
-import 'package:demo_flutter/di.dart';
+import 'package:expo_app/features/user/presentation/controller/user_controller.dart';
+import 'package:expo_app/features/user/presentation/widgets/status_container.dart';
+import 'package:expo_app/features/user/domain/entities/user_entity.dart';
+import 'package:expo_app/common/widget/spinkit_indicator.dart';
+import 'package:expo_app/features/user/data/models/user.dart';
+import 'package:expo_app/common/dialog/retry_dialog.dart';
+import 'package:expo_app/common/widget/empty_widget.dart';
+import 'package:expo_app/common/widget/popup_menu.dart';
+import 'package:expo_app/core/app_extension.dart';
+import 'package:expo_app/core/app_style.dart';
+import 'package:expo_app/di.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

@@ -1,13 +1,13 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter/foundation.dart' show visibleForTesting;
 import 'package:get/get_state_manager/get_state_manager.dart';
-import 'package:demo_flutter/features/user/data/models/user.dart';
-import 'package:demo_flutter/common/controller/base_controller.dart';
-import 'package:demo_flutter/features/user/domain/entities/user_entity.dart';
-import 'package:demo_flutter/features/user/domain/usecases/create_user_usecase.dart';
-import 'package:demo_flutter/features/user/domain/usecases/delete_user_usecase.dart';
-import 'package:demo_flutter/features/user/domain/usecases/get_users_usecase.dart';
-import 'package:demo_flutter/features/user/domain/usecases/update_user_usecase.dart';
+import 'package:expo_app/features/user/data/models/user.dart';
+import 'package:expo_app/common/controller/base_controller.dart';
+import 'package:expo_app/features/user/domain/entities/user_entity.dart';
+import 'package:expo_app/features/user/domain/usecases/create_user_usecase.dart';
+import 'package:expo_app/features/user/domain/usecases/delete_user_usecase.dart';
+import 'package:expo_app/features/user/domain/usecases/get_users_usecase.dart';
+import 'package:expo_app/features/user/domain/usecases/update_user_usecase.dart';
 
 class UserController extends GetxController with StateMixin<List<User>>, BaseController {
   final GetUsersUseCase getUsersUseCase;

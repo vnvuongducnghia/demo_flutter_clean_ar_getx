@@ -1,8 +1,8 @@
-import 'package:demo_flutter/common/network/api_base.dart';
-import 'package:demo_flutter/common/network/api_config.dart';
-import 'package:demo_flutter/common/network/dio_client.dart';
-import 'package:demo_flutter/features/user/data/models/user.dart';
-import 'package:demo_flutter/features/user/domain/entities/user_entity.dart';
+import 'package:expo_app/common/network/api_base.dart';
+import 'package:expo_app/common/network/api_config.dart';
+import 'package:expo_app/common/network/dio_client.dart';
+import 'package:expo_app/features/user/data/models/user.dart';
+import 'package:expo_app/features/user/domain/entities/user_entity.dart';
 
 abstract class UserRemoteDataSource {
   Future<List<User>> getUsers({Gender? gender, UserStatus? status});

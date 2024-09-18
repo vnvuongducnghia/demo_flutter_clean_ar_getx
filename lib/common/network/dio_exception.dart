@@ -1,4 +1,4 @@
-import 'package:demo_flutter/core/app_string.dart';
+import 'package:expo_app/core/app_string.dart';
 import 'package:dio/dio.dart' show DioException, DioExceptionType;
 
 class DioExceptions implements Exception {

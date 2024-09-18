@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:demo_flutter/common/dialog/retry_dialog.dart';
-import 'package:demo_flutter/common/dialog/progress_dialog.dart';
-import 'package:demo_flutter/common/controller/base_controller.dart';
+import 'package:expo_app/common/dialog/retry_dialog.dart';
+import 'package:expo_app/common/dialog/progress_dialog.dart';
+import 'package:expo_app/common/controller/base_controller.dart';
 
 class AsyncWidget extends StatelessWidget {
   const AsyncWidget({

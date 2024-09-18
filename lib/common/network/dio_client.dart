@@ -1,4 +1,4 @@
-import 'package:demo_flutter/common/network/dio_interceptor.dart';
+import 'package:expo_app/common/network/dio_interceptor.dart';
 import 'package:dio/dio.dart';
 
 import 'api_config.dart';

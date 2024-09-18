@@ -1,5 +1,5 @@
 import 'package:dartz/dartz.dart';
-import 'package:demo_flutter/common/network/dio_exception.dart';
+import 'package:expo_app/common/network/dio_exception.dart';
 import 'package:dio/dio.dart' show DioException;
 
 

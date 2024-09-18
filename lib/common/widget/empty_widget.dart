@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:demo_flutter/core/app_style.dart';
-import 'package:demo_flutter/core/app_asset.dart';
+import 'package:expo_app/core/app_style.dart';
+import 'package:expo_app/core/app_asset.dart';
 
 class EmptyWidget extends StatelessWidget {
   const EmptyWidget({

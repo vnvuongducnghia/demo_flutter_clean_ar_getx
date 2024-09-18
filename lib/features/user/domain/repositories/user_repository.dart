@@ -1,5 +1,5 @@
-import 'package:demo_flutter/features/user/data/models/user.dart';
-import 'package:demo_flutter/features/user/domain/entities/user_entity.dart';
+import 'package:expo_app/features/user/data/models/user.dart';
+import 'package:expo_app/features/user/domain/entities/user_entity.dart';
 import 'package:dartz/dartz.dart';
 
 

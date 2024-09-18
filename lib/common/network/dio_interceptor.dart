@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:logger/logger.dart';
-import 'package:demo_flutter/core/app_extension.dart';
+import 'package:expo_app/core/app_extension.dart';
 
 class DioInterceptor extends Interceptor {
   final Logger logger = Logger(
